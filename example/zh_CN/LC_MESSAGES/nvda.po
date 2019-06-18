@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 10:01+0800\n"
-"PO-Revision-Date: 2019-06-07 09:08+0800\n"
+"POT-Creation-Date: 2019-06-18 07:43+0800\n"
+"PO-Revision-Date: 2019-06-18 07:45+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -3533,31 +3533,31 @@ msgid "Find Error"
 msgstr "查找失败"
 
 #. Translators: Input help message for NVDA's find command.
-#: cursorManager.py:211
+#: cursorManager.py:214
 msgid "find a text string from the current cursor position"
 msgstr "从光标处查找文本"
 
 #. Translators: Input help message for find next command.
-#: cursorManager.py:219
+#: cursorManager.py:222
 msgid ""
 "find the next occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr "从光标处向下查找您之前键入的文本"
 
 #. Translators: Input help message for find previous command.
-#: cursorManager.py:227
+#: cursorManager.py:230
 msgid ""
 "find the previous occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr "从光标处向上查找您之前键入的文本"
 
 #. Translators: Reported when there is no text selected (for copying).
-#: cursorManager.py:407 globalCommands.py:211
+#: cursorManager.py:410 globalCommands.py:211
 msgid "No selection"
 msgstr "没有选择文本"
 
 #. Translators: Message presented when text has been copied to clipboard.
-#: cursorManager.py:411
+#: cursorManager.py:414
 msgid "Copied to clipboard"
 msgstr "复制到剪贴板"
 
@@ -11144,8 +11144,12 @@ msgstr "在 Word 调用 UI Automation 接口 (&u)"
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:2055
-msgid "Force UI Automation in the Windows Console"
-msgstr "在Windows控制台掉用 UI Automation 接口"
+#, fuzzy
+#| msgid ""
+#| "Use UI Automation to access Microsoft &Word document controls when "
+#| "available"
+msgid "Use UI Automation to access the Windows Console when available"
+msgstr "在 Word 调用 UI Automation 接口 (&u)"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
@@ -11707,7 +11711,7 @@ msgstr "朗读系统输入焦点所在的注释文本。"
 msgid "Not in table"
 msgstr "不在表格中"
 
-#: NVDAObjects\UIA\__init__.py:1381
+#: NVDAObjects\UIA\__init__.py:1380
 msgid "invoke"
 msgstr "启用"
 
@@ -11748,7 +11752,7 @@ msgstr "评论： {comment}，由 {author} 在{date}时提交"
 msgid "{comment} by {author} on {date}"
 msgstr "{comment}，由 {author} 在{date}时提交"
 
-#: NVDAObjects\window\__init__.py:393
+#: NVDAObjects\window\__init__.py:391
 msgid "Desktop"
 msgstr "桌面"
 
@@ -13316,6 +13320,9 @@ msgstr "双倍行间距"
 #: NVDAObjects\window\winword.py:1432
 msgid "1.5 line spacing"
 msgstr "1.5倍行间距"
+
+#~ msgid "Force UI Automation in the Windows Console"
+#~ msgstr "在Windows控制台掉用 UI Automation 接口"
 
 #~ msgid "Currently running application is %s"
 #~ msgstr "当前运行的程序为 %s"

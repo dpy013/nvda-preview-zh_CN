@@ -4,9 +4,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: NVDA source-master-34d3917\n"
+"Project-Id-Version: NVDA source-master-6860c5c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 08:23+0800\n"
+"POT-Creation-Date: 2019-06-18 07:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3519,31 +3519,31 @@ msgid "Find Error"
 msgstr ""
 
 #. Translators: Input help message for NVDA's find command.
-#: cursorManager.py:211
+#: cursorManager.py:214
 msgid "find a text string from the current cursor position"
 msgstr ""
 
 #. Translators: Input help message for find next command.
-#: cursorManager.py:219
+#: cursorManager.py:222
 msgid ""
 "find the next occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr ""
 
 #. Translators: Input help message for find previous command.
-#: cursorManager.py:227
+#: cursorManager.py:230
 msgid ""
 "find the previous occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr ""
 
 #. Translators: Reported when there is no text selected (for copying).
-#: cursorManager.py:407 globalCommands.py:211
+#: cursorManager.py:410 globalCommands.py:211
 msgid "No selection"
 msgstr ""
 
 #. Translators: Message presented when text has been copied to clipboard.
-#: cursorManager.py:411
+#: cursorManager.py:414
 msgid "Copied to clipboard"
 msgstr ""
 
@@ -11582,7 +11582,7 @@ msgstr ""
 msgid "Not in table"
 msgstr ""
 
-#: NVDAObjects\UIA\__init__.py:1381
+#: NVDAObjects\UIA\__init__.py:1380
 msgid "invoke"
 msgstr ""
 
