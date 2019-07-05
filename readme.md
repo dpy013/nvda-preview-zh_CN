@@ -72,3 +72,5 @@ No symbol replacement
 没有符号可替换
 Reports the symbol where the review cursor is positioned. Pressed twice, shows the symbol and the text used to speak it in browse mode
 案一次朗读浏览光标所在的符号。按两次，显示在浏览模式下读出的符号和文本
+* 新增( Use UI Automation to access the Windows Console when available)字符串
+* 移除( Force UI Automation in the Windows Console)字符串
