@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-04 09:48+0800\n"
-"PO-Revision-Date: 2019-08-04 09:49+0800\n"
+"PO-Revision-Date: 2019-08-05 06:39+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -10628,44 +10628,40 @@ msgstr "在Word调用UI Automation接口 (&u)"
 #. Choices are automatic, prefer UIA, and legacy.
 #: gui\settingsDialogs.py:2062
 msgid "Windows C&onsole support:"
-msgstr ""
+msgstr "Windows控制台支持(&W):"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA use UIA in the Windows Console when available.
 #: gui\settingsDialogs.py:2070
 msgid "Prefer UIA"
-msgstr ""
+msgstr "新版 UIA"
 
 #. Translators: A choice in a combo box in the advanced settings
 #. panel to have NVDA use its legacy Windoes Console support
 #. in all cases.
 #: gui\settingsDialogs.py:2074
 msgid "Legacy"
-msgstr ""
+msgstr "旧版"
 
 #. Translators: This is the label for a group of advanced options in the
 #. Advanced settings panel
 #: gui\settingsDialogs.py:2099
 msgid "Terminal programs"
-msgstr ""
+msgstr "终端程序"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:2107
-#, fuzzy
-#| msgid "Speak &passwords in UIA consoles (may improve performance)"
 msgid "Speak &passwords in Windows Console (may improve performance)"
 msgstr "在Windows控制台读出密码 可提高性能(&S)"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:2114
-#, fuzzy
-#| msgid "Use UI Automation to access the Windows Console when available"
 msgid ""
 "Use the new t&yped character support in legacy Windows consoles when "
 "available"
-msgstr "在 Windows控制台 调用 UI Automation 接口 (&u)"
+msgstr "在旧版Windows控制台掉用新的类型字符支持(&U)"
 
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
